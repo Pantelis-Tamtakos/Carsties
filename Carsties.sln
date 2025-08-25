@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\Aucti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{87882CAD-D4C0-44BC-BD44-3D7FF08FF2AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{87882CAD-D4C0-44BC-BD44-3D7FF08FF2AF}.Release|x64.Build.0 = Release|Any CPU
 		{87882CAD-D4C0-44BC-BD44-3D7FF08FF2AF}.Release|x86.ActiveCfg = Release|Any CPU
 		{87882CAD-D4C0-44BC-BD44-3D7FF08FF2AF}.Release|x86.Build.0 = Release|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Debug|x64.Build.0 = Debug|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Debug|x86.Build.0 = Debug|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Release|x64.ActiveCfg = Release|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Release|x64.Build.0 = Release|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Release|x86.ActiveCfg = Release|Any CPU
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{552995F3-AF73-45C1-8E75-75015FA55838} = {B0BBCCFD-3BE2-4CBA-8EBE-443CDDDE3565}
 		{87882CAD-D4C0-44BC-BD44-3D7FF08FF2AF} = {B0BBCCFD-3BE2-4CBA-8EBE-443CDDDE3565}
+		{E051E9F9-35E6-4C90-ADDF-EFBA5483ED74} = {B0BBCCFD-3BE2-4CBA-8EBE-443CDDDE3565}
 	EndGlobalSection
 EndGlobal
